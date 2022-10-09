@@ -12,7 +12,7 @@ const App = (props) => {
     }, [props.isAnyItems]);
 
     const [message, setMessage] = useState(false);
-    const [initialized, setInitialized] = useState(true);
+    const [initialized, setInitialized] = useState(false);
 
     setTimeout(() => {
         setInitialized(true);
